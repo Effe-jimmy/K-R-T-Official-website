@@ -1,0 +1,161 @@
+/* @author Junchen Yi
+@version ${2021.6.12} ${:} */
+
+.item1{
+	margin-top: 10px;
+
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+.item2{
+	margin-top: 0px;
+
+	padding: 0px;
+	width:100%;
+	height: 100%;
+}
+.item3{
+	margin-top: 0px;
+
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+.modo-content-under-lq{
+	color: var(--text-color);
+	    background-color: var(--background-color);
+	    padding-top: var(--global-nav-collective-height);
+		background-repeat: no-repeat;
+		background-size: auto;
+		background-size: cover;
+		 /*   background-position-y: bottom; */
+			background-position-x: 50%;
+		background-image: url(../photos/home/luqu_home_1_x.png);
+		height: 900px;
+		width: 100%;
+		margin: auto;
+	    
+}
+@media only screen and (max-width: 768px) {
+  .modo-content-under-lq {
+    height: 310px;
+	background-size: cover;
+	background-position-x:30%;
+	background-position-y:35% ;
+  }
+}
+@media screen and (max-width: 768px) {
+  .modo-content-under-github {
+    height: 310px;
+	background-size: contain;
+	background-position-x:;
+  }
+}
+.modo-content-under-sign{
+	color: var(--text-color);
+	    background-color: var(--background-color);
+	    padding-top: var(--global-nav-collective-height);
+		background-repeat: no-repeat;
+		background-size: auto;
+		background-size: cover;
+		 /*   background-position-y: bottom; */
+			background-position-x: 50%;
+		background-image: url(../photos/home/sign_home_1_x.JPG);
+		height: 900px;
+		width: 100%;
+		margin: auto;
+	    
+}
+@media only screen and (max-width: 768px) {
+  .modo-content-under-sign {
+    height: 310px;
+	background-size: cover;
+	background-position-x:;
+  }
+}
+@media screen and (max-width: 768px) {
+  .modo-content-under-github {
+    height: 310px;
+	background-size: contain;
+	background-position-x:;
+  }
+}
+
+.modo-content-under-github{
+	color: var(--text-color);
+	    background-color: var(--background-color);
+	    padding-top: var(--global-nav-collective-height);
+		background-repeat: no-repeat;
+		background-size: auto;
+		    background-position-y: bottom;
+			background-position-x: 50%;
+		background-image: url(../photos/home/github_home_1_x.png);
+		height: 900px;
+		width: 100%;
+		margin: auto;
+	    
+}
+@media screen and (max-width: 768px) {
+  .modo-content-under-github {
+    height: 310px;
+	background-size: contain;
+	background-position-x:;
+  }
+}
+.modo-content-under-updates{
+	color: var(--text-color);
+	    background-color: var(--background-color);
+	    padding-top: var(--global-nav-collective-height);
+		background-repeat: no-repeat;
+		background-size: revert;
+		    background-position-y: inherit;
+		background-image: url(../photos/home/update_home_1_x.png);
+		height: 900px;
+		width: 100%;
+		margin: auto;
+	    
+}
+@media screen and (max-width: 768px) {
+  .modo-content-under-updates {
+    height: 310px;
+	background-size: contain;
+	    background-position-y: bottom;
+  }
+}
+.modo-content-under-zaysb{
+	color: var(--text-color);
+	    background-color: var(--background-color);
+	    padding-top: var(--global-nav-collective-height);
+		background-repeat: no-repeat;
+		background-size: cover;
+		    background-position-y: bottom;
+		background-image: url(../photos/home/Anyang_Zhong_home_1_x.png);
+		height: 1000px;
+		width: 100%;
+		margin: auto;
+	    
+}
+@media screen and (max-width: 768px) {
+  .modo-content-under-zaysb {
+    height: 310px;
+  }
+}
+.modo-content-under-sport{
+	color: var(--text-color);
+	    background-color: var(--background-color);
+	    padding-top: var(--global-nav-collective-height);
+		background-repeat: no-repeat;
+		background-size: cover;
+		    background-position-y: bottom;
+			background-position-x: center;
+		background-image: url(../photos/home/sport_home_2_x.jpg);
+		height: 1000px;
+		width: 100%;
+		margin: auto;
+		}
+@media screen and (max-width: 768px) {
+  .modo-content-under-sport {
+    height: 310px;
+  }
+}
